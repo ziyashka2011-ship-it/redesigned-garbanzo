@@ -156,7 +156,7 @@ function Read-OrCreateSettings {
     for ($i = 0; $i -lt $availablePools.Count; $i++) {
         $p = $availablePools[$i]
         $tlsLabel = if ($p.Tls) { 'TLS' } else { 'no TLS' }
-        Write-Host (('{0}) {1} ({2}:{3}, {4})' -f ($i + 1), $p.Name, $p.Host, $p.Port, $tlsLabel)
+        Write-Host (('{0}) {1} ({2}:{3}, {4})' -f ($i + 1), $p.Name, $p.Host, $p.Port, $tlsLabel))
     }
 
     $choiceText = Read-Host "Enter 1-$($availablePools.Count)"
