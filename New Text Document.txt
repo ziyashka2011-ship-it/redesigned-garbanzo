@@ -3,3 +3,4 @@ cd "$HOME\Downloads"
 Set-ExecutionPolicy -Scope Process Bypass
 .\MoneroMiner-Setup.ps1
 powershell.exe -NoProfile -File "C:\Users\ТВОЙ_ПОЛЬЗОВАТЕЛЬ\Documents\MoneroMiner.ps1" auto
+shell:common startup
